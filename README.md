@@ -91,6 +91,8 @@ netstat
 A list of network connections appears, including one to a remote port of 4444, as highlighted in the image below.
 Notice the "PID/Program name" value for this connection, which is redacted 
 
+![image](https://github.com/CodesWithRobi/EH-Compromising-windows-using-Metasploit/assets/130537166/99923d38-7cf4-475b-97c7-416d29e9911c)
+
 
 Post Exploitation
 The target is now owned. Following are meterpreter commands for key capturing in the target machine
@@ -98,6 +100,7 @@ keyscan_start	Begins capturing keys typed in the target. On the Windows target, 
 
 
 keyscan_dump	Shows the keystrokes captured so far
+![image](https://github.com/CodesWithRobi/EH-Compromising-windows-using-Metasploit/assets/130537166/f6fce01d-00aa-4726-b6a1-97902bc1dffb)
 
 
 ## RESULT:
